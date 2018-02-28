@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ILMovieDB (0.0.3):
+    - AFNetworking (~> 2.5)
+  - JSONModel (1.7.0)
+  - LHTMDbClient (0.1):
+    - AFNetworking (~> 2.0)
+  - SDWebImage (4.3.0):
+    - SDWebImage/Core (= 4.3.0)
+  - SDWebImage/Core (4.3.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ILMovieDB
+  - JSONModel
+  - LHTMDbClient
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  ILMovieDB: 10bd8878765e4cf62838a6533b49b64490c406ed
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  LHTMDbClient: 1535f640b885e3a47ff8cd0823ea921b17fe1a9f
+  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
+
+PODFILE CHECKSUM: 34f362002e4a3da9c5c3c32b7538f29f3b7f8cb3
+
+COCOAPODS: 1.4.0
